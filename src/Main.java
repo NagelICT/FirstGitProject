@@ -2,6 +2,10 @@ public class Main {
 
     public static void main (String[] args)
     {
-        System.out.println("This is a first Git attempt for a Java project.");
+        showMessage("This is a shorter version of system.out.println");
+    }
+
+    private static void showMessage(String string) {
+        System.out.println(string);
     }
 }
